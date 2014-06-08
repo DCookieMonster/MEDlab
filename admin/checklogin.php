@@ -3,7 +3,7 @@
 $host="localhost"; // Host name 
 $username="root"; // Mysql username 
 $password="9670"; // Mysql password 
-$db_name="user_db"; // Database name 
+$db_name="site_db"; // Database name 
 $tbl_name="members"; // Table name 
 
 // Connect to server and select databse.
@@ -27,9 +27,10 @@ $count=mysql_num_rows($result);
 if($count==1){
 // Register $myusername, $mypassword and redirect to file "login_success.php"
 session_start ();
+$_SESSION['time']=time();
 $_SESSION['myusername']=$myusername;
 $_SESSION['mypassword']=$mypassword;
-header("location:login_success.php");
+header("location:view.php");
 }
 else {
 echo "Wrong Username or Password";

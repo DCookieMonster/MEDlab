@@ -75,20 +75,24 @@
 		         <?php
 		$input = $_GET['input'];//Note to self $input in the name of the search feild
 		$terms = explode(" ", $input);
-		$query = "SELECT * FROM dor WHERE ";
+		$query = "SELECT * FROM search WHERE ";
 		$i=0;
 		
 		foreach ($terms as $each){
 			$i++;
+            $eacht = mysql_real_escape_string($each);
 			if ($i == 1)
-				$query .= "keywords LIKE '%$each%' ";
+				$query .= "keywords LIKE '%$eacht%' ";
+                //$query .= "keywords LIKE '%$each%' ";
 			else
-				$query .= "OR keywords LIKE '%$each%' ";
+				//$query .= "OR keywords LIKE '%$each%' ";
+                $query .= "OR keywords LIKE '%$eacht%' ";
+
 		}
 		
 		// connecting to our mysql database
 		mysql_connect("localhost", "root", "9670");
-		mysql_select_db("dor");
+		mysql_select_db("site_db");
 		
 		$query = mysql_query($query);
 		$numrows = mysql_num_rows($query);
