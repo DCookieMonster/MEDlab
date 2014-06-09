@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,7 +43,7 @@
             <!-- ####################################################################################################### -->
             <div id="topbar">
                 <div class="fl_left">
-                    <form action="./search.php" method="get">
+                    <form action="search.php" method="get">
                         <div>
                             <br/>
                             <input type="text" name="input"  value="Search the site&hellip;" onfocus="this.value=(this.value=='Search the site&hellip;')? '' : this.value ;" />
@@ -113,7 +112,13 @@ $name_query="SELECT name From $tb_name";
 $tag_query ="SELECT tag From $tb_name";
 $name_tmp = mysql_query($name_query, $db_con);
 $tag_tmp = mysql_query($tag_query, $db_con);
+
+//array for subjects
+$subjectArr = array("master");
+
 $flag =true;
+$flag_sub=true;
+$sub_name="";
 $tmp_name="";
 while ($row_tmp = mysql_fetch_array($name_tmp)) {
 $row_tag = mysql_fetch_array($tag_tmp);
@@ -125,12 +130,32 @@ if ($name!=$tmp_name){
 }
 // page variables
 if ($flag==true){
-$query = "SELECT * FROM $tb_name WHERE name=\"$name\" ORDER BY title";
-$result = mysql_query($query, $db_con);
+$sub_query ="SELECT subject From $tb_name WHERE name=\"$name\"";
+$sub_tmp = mysql_query($sub_query, $db_con);
+
 // successful result
 $i=1;
 echo'<div class="panel-group" id="accordion'.$tag.'">';
 echo'<h2 class="page-header" id="'.$tag.'"style="font-size: 28px">'.$name.'</h2>';
+
+while ($row_sub = mysql_fetch_array($sub_tmp)){
+
+if ($row_sub['subject']!=NULL and $row_sub['subject']!=$sub_name and in_array($row_sub['subject'].$name,$subjectArr)!=true){
+    $sub_name=$row_sub['subject'];
+	array_push($subjectArr,$sub_name.$name);
+    $flag_sub =true;
+}
+$query = "SELECT * FROM $tb_name WHERE name=\"$name\" ORDER BY year";
+if ($sub_name!="")
+$query = "SELECT * FROM $tb_name WHERE name=\"$name\" and subject=\"$sub_name\" ORDER BY year";
+$result = mysql_query($query, $db_con);
+
+
+
+if ($flag_sub==true){
+	  echo'   <div id="'.$sub_name.'">';
+	if ($sub_name!="")
+		echo'<h4 class="panel-header">'.$sub_name.'</h4>';
 while ($row = mysql_fetch_array($result)) {
     echo ' <div class="panel panel-default">
                                     <div class="panel-heading ">
@@ -152,7 +177,13 @@ while ($row = mysql_fetch_array($result)) {
     $i=$i+1;
 }
 echo '</div>';
+}//if sub
+
+$flag_sub=false;
+}//while sub
+echo '</div>';
 }
+
     $flag=false;
 }
 mysql_close($db_con);

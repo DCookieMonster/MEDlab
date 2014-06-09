@@ -15,6 +15,8 @@ $title=mysql_real_escape_string($_POST['title']);
 $abstract=mysql_real_escape_string($_POST['abstract']);
 $name=mysql_real_escape_string($_POST['name']);
 $tag=mysql_real_escape_string($_POST['tag']);
+$subject=mysql_real_escape_string($_POST['subject']);
+$year=mysql_real_escape_string($_POST['year']);
 $link=mysql_real_escape_string($_POST['link']);
 
 //$db_host = "localhost";
@@ -26,7 +28,7 @@ $link=mysql_real_escape_string($_POST['link']);
 $db_con = mysql_connect($db_host, $username, $password);
 $result = mysql_select_db($db_name, $db_con);
 // update data in mysql database 
-$sql="UPDATE $tbl_name SET title='$title', abstract='$abstract', name='$name', link='$link', tag='$tag'
+$sql="UPDATE $tbl_name SET title='$title', abstract='$abstract', name='$name', link='$link', tag='$tag' ,year='$year', subject='$subject'
 WHERE id='$id'";
 $result=mysql_query($sql,$db_con);
 

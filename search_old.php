@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,28 +7,28 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Publications</title>
+    <title>Search</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta http-equiv="imagetoolbar" content="no" />
-    <link rel="stylesheet" href="../styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="styles/layout.css" type="text/css" />
     <!-- Add custom CSS here -->
-    <link href="../css/modern-business.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <form id="form1" runat="server">
-        <div class="wrapper">
-            <div id="topmenu">
-                     <!-- ####################################################################################################### -->
+     <div class="wrapper" >
+        <div id="topmenu" class="topmenu">
+            <!-- ####################################################################################################### -->
+         
             <div id="header">
                 <div class="fl_left">
 					<table style="width:100%">
 					<tr>
-					  <td>	<img src="../img/logo-small.png" width="40" height="70" alt="Med Logo">
+					  <td>	<img src="img/logo-small.png" width="40" height="70" alt="Med Logo">
 					</td>
 					  <td><h1 style="color: orangered; width: 523px;"><a href="index.html">Medical Informatics</a></h1>
                     <p>Research Center</p></td> 
@@ -44,19 +42,19 @@
             <!-- ####################################################################################################### -->
             <div id="topbar">
                 <div class="fl_left">
-                    <form action="./search.php" method="get">
+                    <form action="search.php" method="get">
                         <div>
                             <br/>
-                            <input type="text" name="input"  value="Search the site&hellip;" onfocus="this.value=(this.value=='Search the site&hellip;')? '' : this.value ;" />
+                           <input type="text" name="input" value="<?php echo $_GET['input']; ?>" />
                             <input type="submit" name="go" id="go" value="GO" />
                         </div>
                     </form>
                 </div>
-                <div id="topnav">
+                 <div id="topnav">
                     <ul>
-                        <li ><a href="index.html">Home</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
                         <li ><a href="about.html">Members</a></li>
-                        <li class="active"><a href=" Publications.html">Publications</a></li>
+                        <li><a href=" Publications.html">Publications</a></li>
                         <li><a href="#">Projects</a>
                             <ul>
                                 <li><a href="Projects/OldProjects.html">Old Projects</a></li>
@@ -72,83 +70,58 @@
 			<br/>
         </div>
         <!-- ####################################################################################################### -->
-            <div id="intro">
-                <!-- Custom CSS for the 'Round About' Template -->
-                <link href="../styles/style.css" rel="stylesheet" />
+      <div id="intro">
 
+		         <?php
+		$input = $_GET['input'];//Note to self $input in the name of the search feild
+		$terms = explode(" ", $input);
+		$query = "SELECT * FROM search WHERE ";
+		$i=0;
+		
+		foreach ($terms as $each){
+			$i++;
+            $eacht = mysql_real_escape_string($each);
+			if ($i == 1)
+				$query .= "keywords LIKE '%$eacht%' ";
+                //$query .= "keywords LIKE '%$each%' ";
+			else
+				//$query .= "OR keywords LIKE '%$each%' ";
+                $query .= "OR keywords LIKE '%$eacht%' ";
 
+		}
+		
+		// connecting to our mysql database
+		mysql_connect("localhost", "root", "9670");
+		mysql_select_db("site_db");
+		
+		$query = mysql_query($query);
+		$numrows = mysql_num_rows($query);
 
-                <div class="container">
+		if ($numrows > 0){
+			
+			while ($row = mysql_fetch_assoc($query)){
+				$id = $row['id'];
+				$title = $row['title'];
+				$description = $row['description'];
+				$keywords = $row['keywords'];
+				$link = $row['link'];
+				echo "<h2><a href='$link'>$title</a></h2>
+				$description<br /><br />";
 
-                    <div class="row wrap"> 
+			}
+		
+		}
+		else
+			echo "<p style='font-size:18px'>No results found for \"<b>$input</b>\"</p>";
+		
+		// disconnect
+		mysql_close();
+	?>
+          </div>
 
-                        <div class="col-lg-12">
-                            <h1 class="page-header-top">Publications
-                            </h1>
-                            <ol class="breadcrumb">
-                                <li><a href="index.html">Home</a>
-                                </li>
-                                <li class="active">Publications</li>
-                            </ol>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-lg-10">
-<?php
-  // connection parameters
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
-$db_name = "dor";
-$tb_name = "Publications";
-
-// connection variables + connection to mysql and db
-$db_con = mysql_connect($db_host, $username, $password);
-$result = mysql_select_db($db_name, $db_con);
-
-// page variables
-$query = "SELECT * FROM $tb_name ORDER BY year";
-$result = mysql_query($query, $db_con);
-// successful result
-echo'<h2 class="page-header" id="ayeletg"style="font-size: 28px">Ayelet Goldstein</h2>';
-$i=1;
-while ($row = mysql_fetch_array($result)) {
-    echo ' <div class="panel panel-default">
-                                    <div class="panel-heading ">
-                                        <h4 class="panel-title">';
-    echo ' <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$row['tag'].$i.'">'.$row['title'].'</a>';
-    echo '  </a></h4></div>';
-    echo ' <div id="collapse'.$row['tag'].$i.'" class="panel-collapse collapse">
-                                        <div class="panel-body">';
-    echo $row['abstract'];
-    if ($row['link']==null){
-    }
-    else{
-	echo  "<br>";
-        echo '<a href="'.$row['link'].'">PDF file</a>';
-    }
-    echo '   </div>
-                                    </div>
-                                </div>';
-    $i=$i+1;
-}
-mysql_close($db_con);
-?>
-     
-                                
-                                
-</div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- /.container -->
-
+		                    
           <!-- ####################################################################################################### -->
+
           <div id="footer">
               <div>
                   <div align="center">
@@ -176,17 +149,10 @@ mysql_close($db_con);
                   <br class="clear" />
               </div>
               <!-- ####################################################################################################### -->
-                    <br class="clear" />
-                </div>
-            </div>
-        </div>
-    </form>
-    
-    
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
+              <br class="clear" />
+          </div>
+      </div>
+         </div>
 </body>
 
 </html>

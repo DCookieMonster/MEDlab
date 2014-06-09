@@ -122,6 +122,8 @@ echo '<div class="col-lg-12"> <div class="table-responsive">
     <tr>
     <th>id</th>
     <th>name</th>
+	<th>subject</th>
+	<th>year</th>
     <th>tag</th>
     <th>title</th>
     <th>abstract</th>
@@ -134,6 +136,8 @@ while ($row = mysql_fetch_array($result)) {
     echo "<tr>";
     echo "<td>" . $row['id'] . "</td>";
     echo "<td>" . $row['name'] . "</td>";
+    echo "<td>" . $row['subject'] . "</td>";
+    echo "<td>" . $row['year'] . "</td>";
     echo "<td>" . $row['tag'] . "</td>";
     echo "<td>" . $row['title'] . "</td>";
     echo "<td>" . $row['abstract'] . "</td>";

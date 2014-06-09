@@ -76,20 +76,22 @@
 		$input = $_GET['input'];//Note to self $input in the name of the search feild
 		$terms = explode(" ", $input);
 		$query = "SELECT * FROM search WHERE ";
+		$query_pub="SELECT * FROM Publications WHERE ";
 		$i=0;
 		
 		foreach ($terms as $each){
 			$i++;
             $eacht = mysql_real_escape_string($each);
-			if ($i == 1)
+			if ($i == 1){
 				$query .= "keywords LIKE '%$eacht%' ";
-                //$query .= "keywords LIKE '%$each%' ";
-			else
-				//$query .= "OR keywords LIKE '%$each%' ";
+                $query_pub .= "abstract LIKE '%$eacht%' OR title LIKE '%$eacht%' ";
+}
+			else{
+				$query_pub .= "OR abstract LIKE '%$eacht%' OR title LIKE '%$eacht%' ";
                 $query .= "OR keywords LIKE '%$eacht%' ";
-
+			}
 		}
-		
+		$flag=true;
 		// connecting to our mysql database
 		mysql_connect("localhost", "root", "9670");
 		mysql_select_db("site_db");
@@ -112,8 +114,40 @@
 		
 		}
 		else
-			echo "<p style='font-size:18px'>No results found for \"<b>$input</b>\"</p>";
+			$flag=false;
+			
+		// connecting to our mysql database
+		mysql_connect("localhost", "root", "9670");
+		mysql_select_db("site_db");
 		
+		$query_pub = mysql_query($query_pub);
+		$numrows = mysql_num_rows($query_pub);
+
+		if ($numrows > 0){
+			while ($row = mysql_fetch_assoc($query_pub)){
+				$title = $row['title'];
+				$abstract = $row['abstract'];
+				$link = $row['link'];
+				if ($link!=NULL){
+				echo "<h2><a href='$link' target=\"_blank\">$title</a></h2>
+				$abstract<br /><br />";}
+				else {
+					echo "<h2><a href='#' onClick=\"NullFunc()\">$title</a></h2>
+					$abstract<br /><br />";
+				}
+
+			}
+		
+		echo"	<script>
+function NullFunc() {
+alert(\"Sorry, This publication is not available.\");
+}
+</script>";
+		}
+		else{
+			if ($flag==false)
+			echo "<p style='font-size:18px'>No results found for \"<b>$input</b>\"</p>";
+		}
 		// disconnect
 		mysql_close();
 	?>

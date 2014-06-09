@@ -20,14 +20,13 @@ mysql_connect("$host", "$username", "$password")or die("cannot connect");
 mysql_select_db("$db_name")or die("cannot select DB");
 
 // get value of id that sent from address bar
-//$id=$_GET['edit'];
+$id=$_GET['edit'];
 
 
 // Retrieve data from database 
-$sql="SELECT * FROM $tbl_name WHERE id=0";
+$sql="SELECT * FROM $tbl_name WHERE id='$id'";
 $result=mysql_query($sql);
 $rows=mysql_fetch_array($result);
-
 
 
 echo'

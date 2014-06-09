@@ -106,6 +106,16 @@ mysql_close();
                 <input class="form-control" type="text" id="name" name="name" value="<?php echo $rows['name']; ?>">
                 <p class="help-block">Name of the author</p>
               </div>
+			 <div class="form-group">
+                <label>Subject:</label>
+                <input class="form-control" type="text" id="subject" name="subject" value="<?php echo $rows['subject']; ?>">
+                <p class="help-block">Subject of the publication</p>
+              </div>
+			 <div class="form-group">
+                <label>Year:</label>
+                <input class="form-control" type="text" id="year" name="year" value="<?php echo $rows['year']; ?>">
+                <p class="help-block">Year of the publication</p>
+              </div>
                  <div class="form-group">
                 <label>Tag:</label>
                 <input class="form-control" type="text" id="tag" name="tag" value="<?php echo $rows['tag']; ?>">
@@ -121,6 +131,7 @@ mysql_close();
                 <textarea class="form-control" rows="3" name="abstract" type="text" id="abstract"> <?php echo $rows['abstract']; ?></textarea>
                 <p class="help-block">The abstract of the publication.</p>
               </div>
+			
               <div class="form-group">
                 <label>Link</label>
                 <input class="form-control" name="link" type="text" id="link" value="<?php echo $rows['link']; ?>">
