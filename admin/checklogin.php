@@ -28,6 +28,7 @@ if($count==1){
 // Register $myusername, $mypassword and redirect to file "login_success.php"
 session_start ();
 $_SESSION['time']=time();
+$_SESSION['howLong']=600;
 $_SESSION['myusername']=$myusername;
 $_SESSION['mypassword']=$mypassword;
 header("location:view.php");

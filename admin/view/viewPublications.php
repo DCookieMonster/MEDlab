@@ -10,8 +10,7 @@ if (!isset($_SESSION['myusername'])){
 header("location:index.php");
 	 
 //logout after $timeoff in sec
-$timeoff=300;
-if (time()-$_SESSION['time']>$timeoff){
+if (time()-$_SESSION['time']>$_SESSION['howLong']){
     header("location:../logout.php");
 
 }

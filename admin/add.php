@@ -11,7 +11,11 @@ header("location:../index.php");
 
 }
 //logout after $timeoff in sec
+if (time()-$_SESSION['time']>$_SESSION['howLong']){
+    header("location:../logout.php");
 
+}
+$_SESSION['time']=time();
 
 ?>
 

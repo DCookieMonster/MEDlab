@@ -10,8 +10,7 @@ if (!isset($_SESSION['myusername'])){
 header("location:index.php");
 	 
 //logout after $timeoff in sec
-$timeoff=300;
-if (time()-$_SESSION['time']>$timeoff){
+if (time()-$_SESSION['time']>$_SESSION['howLong']){
     header("location:logout.php");
 
 }
@@ -130,8 +129,23 @@ $_SESSION['time']=time();
       </div>
             </div>
                          </form>
+		               <div class="col-lg-4">
 
-              
+						      <form action="view/viewabout.php" method="post">
+
+		  <div class="panel panel-info" align="center">
+		              <div class="panel-heading">
+		                <h3 class="panel-title">Member page</h3>
+		              </div>
+		              <div class="panel-body">
+		                View the "Members" Database.<br><br>
+		                <button type="submit" class="btn btn-primary">GO TO</button>
+
+		              </div>
+		      </div>
+		                             </form>
+
+              </div>
         </div><!-- /.row -->
 
       </div><!-- /#page-wrapper -->
