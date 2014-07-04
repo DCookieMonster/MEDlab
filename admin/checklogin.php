@@ -31,7 +31,7 @@ $_SESSION['time']=time();
 $_SESSION['howLong']=600;
 $_SESSION['myusername']=$myusername;
 $_SESSION['mypassword']=$mypassword;
-header("location:view.php");
+header("location:dash.php");
 }
 else {
 echo "Wrong Username or Password";

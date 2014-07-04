@@ -67,6 +67,8 @@ mysql_close();
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav side-nav">
+			 <li ><a href="../Dash.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+	
                 <li><a href="view.php"><i class="fa fa-table"></i> View Data</a></li>
               <li class="active"><i class="fa fa-edit"></i> Edit</li>
             <li ><a href="addp.php"><i class="fa fa-plus"></i> Add</a></li>

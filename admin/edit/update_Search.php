@@ -34,7 +34,7 @@ if($result){
 //echo "<script>alert(You successfully updated ID: $id)</script>";
 echo "<BR>";
 //echo "<a href='viewdata.php'>View result</a>";
-header("location:view.php");
+header("location:../view.php");
 
 }
 

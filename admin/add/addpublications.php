@@ -55,6 +55,8 @@ header("location:../index.php");
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav side-nav">
+			 <li ><a href="../Dash.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+
             <li><a href="../view.php"><i class="fa fa-table"></i> View Data</a></li>
             <li><a href="../add.php"><i class="fa fa-plus"></i> Add</a></li>
             <li class="active"><i class="fa fa-pencil"></i> Publication</li>
