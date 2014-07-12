@@ -52,7 +52,7 @@
                 </div>
                  <div id="topnav">
                     <ul>
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li ><a href="about.html">Members</a></li>
                         <li><a href=" Publications.php">Publications</a></li>
                         <li><a href="#">Projects</a>

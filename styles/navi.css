@@ -17,6 +17,18 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	}
 
+#topnavAdmin{
+    position:fixed;
+	display:block;
+	float:right;
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:13px;
+	font-weight:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+
 #topnav ul, #topnav li{
 	float:left;
 	list-style:none;

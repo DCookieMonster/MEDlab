@@ -3,20 +3,22 @@
 // Check if session is not registered, redirect back to main page. 
 // Put this code in first line of web page. 
 session_start();
-
+$user="Admin";
 //if(!session_is_registered($myusername)){
 if (!isset($_SESSION['myusername'])){
     echo "here";
-header("location:index.php");
-	 
+header("location:logout.php");
+
+}
 //logout after $timeoff in sec
 if (time()-$_SESSION['time']>$_SESSION['howLong']){
     header("location:logout.php");
 
 }
 $_SESSION['time']=time();
+$user=" ".$_SESSION['myusername'];
+ 
 
-}
 
 
 
@@ -92,7 +94,7 @@ $num_rows = mysql_num_rows($result);
           <ul class="nav navbar-nav navbar-right navbar-user">
            
             <li class="dropdown user-dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>  <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i><?php echo $user?>  <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="logout.php"><i class="fa fa-power-off"></i> Log Out</a></li>
               </ul>
@@ -127,6 +129,33 @@ $num_rows = mysql_num_rows($result);
 				                </div>
 				              </div>
 				              <a href="view/viewmess.php">
+				                <div class="panel-footer announcement-bottom">
+				                  <div class="row">
+				                    <div class="col-xs-6">
+				                      View Messages
+				                    </div>
+				                    <div class="col-xs-6 text-right">
+				                      <i class="fa fa-arrow-circle-right"></i>
+				                    </div>
+				                  </div>
+				                </div>
+				              </a>
+				            </div>
+				          </div>
+						 <div class="col-lg-3">
+				            <div class="panel panel-danger">
+				              <div class="panel-heading">
+				                <div class="row">
+				                  <div class="col-xs-6">
+				                    <i class="fa fa-pencil fa-5x"></i>
+				                  </div>
+				                  <div class="col-xs-6 text-right">
+				                    <p class="announcement-heading">Edit</p>
+				                    <p class="announcement-text">your site!</p>
+				                  </div>
+				                </div>
+				              </div>
+				              <a href="../index.php">
 				                <div class="panel-footer announcement-bottom">
 				                  <div class="row">
 				                    <div class="col-xs-6">
