@@ -22,7 +22,7 @@ VALUES ('$name','$email','$content')";
 if (!mysqli_query($con,$sql)) {
   die('Error: ' . mysqli_error($con));
 }
-header("location:contact.html");
+header("location:contact.php");
 mysqli_close($con);
 
 ?>

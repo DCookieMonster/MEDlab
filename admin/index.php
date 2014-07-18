@@ -1,4 +1,12 @@
+<?php
+session_start();
 
+//if(!session_is_registered($myusername)){
+if (isset($_SESSION['myusername'])){
+header("location:dash.php");
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,6 +45,8 @@
         <input name="mypassword" type="password" id="mypassword" class="form-control" placeholder="Password" required>
        
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+<input type=button onClick="location.href='../index.php'" value='To The Site' class="btn btn-lg btn-success btn-block" />
+
       </form>
 
     </div> <!-- /container -->

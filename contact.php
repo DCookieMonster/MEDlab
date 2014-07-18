@@ -31,7 +31,7 @@ $main_rows=getDB($tb_name,$query);
 
 <?php echo $main_rows['header']?>
 
-<?php echo $main_rows['topbar']?>
+<?php echo $row['topbar']?>
   <div id="intro">
    <link href="styles/style.css" rel="stylesheet" />
 
@@ -45,7 +45,7 @@ $main_rows=getDB($tb_name,$query);
                             <h1 class="page-header-top">Contact Us
                             </h1>
                             <ol class="breadcrumb">
-                                <li><a href="index.html">Home</a>
+                                <li><a href="index.php">Home</a>
                                 </li>
                                 <li class="active">Contact Us</li>
                             </ol>

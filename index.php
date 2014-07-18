@@ -30,7 +30,7 @@ $main_rows=getDB($tb_name,$query);
 
 <?php echo $main_rows['header']?>
 
-<?php echo $main_rows['topbar']?>
+<?php echo $row['topbar']?>
   
 		      <?php echo stripslashes($row['content']); ?>
 			   

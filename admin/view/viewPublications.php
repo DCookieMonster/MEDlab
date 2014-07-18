@@ -97,7 +97,10 @@ $_SESSION['time']=time();
              <li class="active"><i class="fa fa-pencil"></i>Publications</li>
 
             </ol>
-          
+          		<div class="alert alert-success alert-dismissable">
+	              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	              If you want to edit a publication, go to the end of this page and insert the ID number of the publication.
+	            </div>
           </div>
         </div><!-- /.row -->
 <?php

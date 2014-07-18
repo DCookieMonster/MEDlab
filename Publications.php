@@ -1,4 +1,13 @@
+ <?php
+require('func.php');
 
+$tb_name="template";
+$query="SELECT * FROM $tb_name WHERE id='1'";
+$main_rows=getDB($tb_name,$query);
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,37 +18,19 @@
     <meta name="author" content="">
 
     <title>Publications</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <meta http-equiv="imagetoolbar" content="no" />
-    <link rel="stylesheet" href="styles/layout.css" type="text/css" />
-    <!-- Add custom CSS here -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<?php echo $main_rows['head']?>
+  
 </head>
 
 <body>
-    <form id="form1" runat="server">
+	<?php	
+		Pubeditable();
+
+	?>
         <div class="wrapper">
             <div id="topmenu">
                      <!-- ####################################################################################################### -->
-            <div id="header">
-                <div class="fl_left">
-					<table style="width:100%">
-					<tr>
-					  <td>	<img src="img/logo-small.png" width="40" height="70" alt="Med Logo">
-					</td>
-					  <td><h1 style="color: orangered; width: 523px;"><a href="index.html">Medical Informatics</a></h1>
-                    <p>Research Center</p></td> 
-					</tr>
-					</table>
-                    
-                </div>
-                <br>
-
-            </div>
+  <?php echo $main_rows['header']?>
             <!-- ####################################################################################################### -->
             <div id="topbar">
                 <div class="fl_left">
@@ -53,17 +44,17 @@
                 </div>
                 <div id="topnav">
                     <ul>
-                        <li ><a href="index.html">Home</a></li>
-                        <li ><a href="about.html">Members</a></li>
+                        <li ><a href="index.php">Home</a></li>
+                        <li ><a href="about.php">Members</a></li>
                         <li class="active"><a href=" Publications.php">Publications</a></li>
-                        <li><a href="#">Projects</a>
+                        <li><a href="soon">Projects</a>
                             <ul>
-                                <li><a href="Projects/OldProjects.html">Old Projects</a></li>
+                                <li><a href="soon">Old Projects</a></li>
                                 <li><a href="Projects/UGProjects.html">Undergraduate Projects</a></li>
-                                <li><a href="Projects/NewProjects.html">New Projects</a></li>
+                                <li><a href="soon">New Projects</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
        <div class="clear"></div>
@@ -200,38 +191,15 @@ mysql_close($db_con);
                 <!-- /.container -->
 
           <!-- ####################################################################################################### -->
-          <div id="footer" class="col-lg-12">
-              <div>
-                  <div align="center"   >
-                      <table width="100%" border="0">
-                          <tr>
-                              <td height="25" valign="top" bgcolor="#663366">
-                                  <p align="center">
-                                      <a href="index.html"  style="color: white; background-color: #663366">Home Page</a> | <a href="Projects/NewProjects.html" style="color: white; background-color: #663366">New
-                                                                                                                                                    Projects</a> | <a href="Publications.php" style="color: white; background-color: #663366">Publications</a>
-                                      | <a href="about.html"  style="color: white; background-color: #663366">Research 
-                                            Members</a> | <a href="http://www.bgu.ac.il" target="_blank" style="color: white; background-color: #663366">BGU</a> | <a href="http://www.ise.bgu.ac.il/" target="_blank" style="color: white; background-color: #663366">ISE</a>
-                                                                            | <a href="contact.html" style="color: white; background-color: #663366">Contact Us</a>  | <a href="map.html" style="color: white; background-color: #663366">Map</a>
-                                  </p>
-                              </td>
-                          </tr>
-                      </table>
-                      <p class="bottomMenu">&nbsp;</p>
-                  </div>
+       
+	<?php echo $main_rows['footer'];?>
 
-              </div>
-
-              <!-- ####################################################################################################### -->
-              <div id="copyright">
-                  <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">BGU</a></p>
-                  <br class="clear" />
-              </div>
+				<?php echo $main_rows['copyright'];?>
               <!-- ####################################################################################################### -->
                     <br class="clear" />
                 </div>
             </div>
         </div>
-    </form>
     
     
     <!-- JavaScript -->

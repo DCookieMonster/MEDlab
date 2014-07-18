@@ -36,7 +36,7 @@ $res=getRuData($tb_name,$query);
 
 <?php echo $main_rows['header']?>
 
-<?php echo $main_rows['topbar']?>
+<?php echo $row['topbar']?>
   <div id="intro">
    <link href="styles/style.css" rel="stylesheet" />
 
@@ -95,19 +95,20 @@ $res=getRuData($tb_name,$query);
 												    </script>
 												<style>
 												#owl-demo .owl-item div{
-												  padding:5px;
+										
 												}
 												#owl-demo .owl-item img{
 												  display: block;
-												  width: 100%;
-												  height: auto;
+												  width: auto;
+												  height: 120px;
+												padding:3px;
 												  -webkit-border-radius: 3px;
 												  -moz-border-radius: 3px;
 												  border-radius: 3px;
 												}
 												</style>
 		      <?php echo stripslashes($row['content']); ?>
-				                    </div>
+				                 
 
 			</div>          <!--  end container -->
 

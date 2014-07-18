@@ -3,7 +3,7 @@
 $db_host = "localhost";
 $username = "root";
 $password = "9670";
-$db_name = "site_db";
+$db_name = "cms";
 $tb_name = "about";
 
 

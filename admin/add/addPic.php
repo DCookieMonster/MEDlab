@@ -48,13 +48,20 @@ $_SESSION['time']=time();
   <body>
 
     <div class="container">
-
-      <form class="form-signin"  method="post" action="pic.php" role="form">
+	
+		
+      <form class="form-signin"  action="upload_file.php" method="post" enctype="multipart/form-data" role="form">
         <h2 class="form-signin-heading">Add Picture</h2>
-        <input name="path" type="text" id="path" class="form-control" placeholder="Path" required autofocus>
-        <input name="name" type="text" id="name" class="form-control" placeholder="Name" required>
-       
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Add</button>
+        <input name="name" type="text" id="name" class="form-control" placeholder="Picture Name" required>
+		<br class="clear"/>
+
+ 		<div>Upload your photo:</div> <input type="file" name="photo_file" />
+
+       	<input type="hidden" name="max_file_size" value="8000000" /> 
+		<br class="clear"/>
+        <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Add</button>
+        <input type=button onClick="location.href='../../about.php'" value='Back to About' class="btn btn-lg btn-warning btn-block" />
+
       </form>
 
     </div> <!-- /container -->

@@ -1,0 +1,7 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+ErrorDocument 404 http://localhost/~doramir/err404.php
+DirectoryIndex index.php index.html      
+order deny,allow

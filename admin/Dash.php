@@ -34,9 +34,13 @@ $db_con = mysql_connect($db_host, $username, $password);
 $result = mysql_select_db($db_name, $db_con);
 
 // page variables
-$query = 'SELECT * FROM '.$tb_name.' WHERE \'read\'=0';
+$query = 'SELECT * FROM '.$tb_name;
 $result = mysql_query($query, $db_con);
-$num_rows = mysql_num_rows($result);
+$num_rows = 0;
+while ($row = mysql_fetch_array($result)) {
+	if((int)$row['read']==0)
+		$num_rows++;
+}
  
 
     
@@ -159,7 +163,7 @@ $num_rows = mysql_num_rows($result);
 				                <div class="panel-footer announcement-bottom">
 				                  <div class="row">
 				                    <div class="col-xs-6">
-				                      View Messages
+				                      Edit
 				                    </div>
 				                    <div class="col-xs-6 text-right">
 				                      <i class="fa fa-arrow-circle-right"></i>

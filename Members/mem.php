@@ -5,7 +5,7 @@ require('../func.php');
 $db_host = "localhost";
 $username = "root";
 $password = "9670";
-$db_name = "site_db";
+$db_name = "cms";
 $tb_name = "about";
 
 // connection variables + connection to mysql and db
@@ -25,7 +25,9 @@ $tb_name="template";
 $query="SELECT * FROM $tb_name WHERE id='4'";
 $main_rows=getDB($tb_name,$query);
 
-
+$tb_name="Pages";
+$query="SELECT * FROM $tb_name WHERE id='4'";
+$rows=getDB($tb_name,$query);
 
 
 
@@ -41,7 +43,7 @@ $main_rows=getDB($tb_name,$query);
 
 <body  dir="ltr" >
 	<?php
-		editable($row['tag']);
+		Memeditable($row['tag']);
 
 	?>
      <div class="wrapper" >
@@ -49,7 +51,7 @@ $main_rows=getDB($tb_name,$query);
 
 <?php echo $main_rows['header']?>
 
-<?php echo $main_rows['topbar']?>
+<?php echo $rows['topbar']?>
  	 <div id="intro">
 	            <div>
 	                    <!-- Custom CSS for the 'Round About' Template -->
@@ -61,9 +63,9 @@ $main_rows=getDB($tb_name,$query);
 	                    id="<?php echo$row['tag'];?>" >
 	                    <h2 class="page-header" style="font-size: 28px"><?php echo$row['name'];?></h2>
 	                              <ol class="breadcrumb">
-	                                <li><a href="../index.html">Home</a>
+	                                <li><a href="../index.php">Home</a>
 	                                </li>
-	                                <li><a href="../members.html">Members</a></li>
+	                                <li><a href="../about.php">Members</a></li>
 	                                 <li class="active"><?php echo$row['name'];?></li>
 	                            </ol>
 	                    <div id="member"
