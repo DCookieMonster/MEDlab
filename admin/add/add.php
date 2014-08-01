@@ -1,6 +1,6 @@
 <?php
-
-$con=mysqli_connect("localhost","root","9670","site_db");
+require('../con.php');
+$con=mysqli_connect("$db_host", "$username", "$password","site_db");
 // Check connection
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();

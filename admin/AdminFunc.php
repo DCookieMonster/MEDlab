@@ -1,9 +1,10 @@
 <?php
  function getDB ($tb_name,$query){
 	  // connection parameters
-	$db_host = "localhost";
-	$username = "root";
-	$password = "9670";
+//	$db_host = "localhost";
+//	$username = "root";
+//	$password = "9670";
+	require('con.php');
 	$db_name = "cms";
 
 	// connection variables + connection to mysql and db
@@ -23,7 +24,7 @@ function editable($title){
 	session_start();
 
 	//if(!session_is_registered($myusername)){
-	if (isset($_SESSION['myusername'])){
+    if (isset($_SESSION['myusername'])){
 		echo '      <div id="topnav" style="position:fixed; z-index:100;" >
                     <ul>
                         <li ><a href="editable.php?title='.$title.'" target="_top">edit</a></li>

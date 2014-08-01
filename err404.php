@@ -35,7 +35,7 @@ editable("err404");
   <div align="center">
 		  <h1>Sorry,we have an error:</h1>
 			   <h4>Page Not Found</h4>
-			<p><a href="sendmail.html">Inform us about the problem</a></p>
+			<p><a href="sendmail.php">Inform us about the problem</a></p>
      </div>
 <?php echo $main_rows['footer'];?>
    

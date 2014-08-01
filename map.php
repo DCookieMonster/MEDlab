@@ -1,6 +1,9 @@
  <?php
 require('func.php');
-
+$tb_name="Pages";
+$title="index";
+$query="SELECT * FROM $tb_name WHERE title=\"$title\"";
+$row=getDB($tb_name,$query);
 
 $tb_name="template";
 $query="SELECT * FROM $tb_name WHERE id='1'";

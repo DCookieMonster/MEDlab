@@ -4,8 +4,9 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 
 $message = $_POST['message'];
+	require('admin/con.php');
 
-$con=mysqli_connect("localhost","root","9670","site_db");
+$con=mysqli_connect($db_host, $username, $password,"site_db");
 // Check connection
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();

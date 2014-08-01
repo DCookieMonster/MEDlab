@@ -22,7 +22,14 @@ $main_rows=getDB($tb_name,$query);
 
 <body  dir="ltr" >
 	<?php
-			editable("index");
+	$title='index';
+	if (session_status() == PHP_SESSION_NONE) {
+	    session_start();
+	}
+			if (isset($_SESSION['tag']) && $_SESSION['tag']=='admin'){
+				editable($title);
+	}
+		
 
 	?>
      <div class="wrapper" >

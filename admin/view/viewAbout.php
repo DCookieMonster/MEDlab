@@ -101,10 +101,9 @@ $_SESSION['time']=time();
         </div><!-- /.row -->
 <?php
   // connection parameters
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
-$db_name = "site_db";
+	require('../con.php');
+
+$db_name = "cms";
 $tb_name = "about";
 
 // connection variables + connection to mysql and db
@@ -135,7 +134,7 @@ while ($row = mysql_fetch_array($result)) {
     echo "<td>" . $row['id'] . "</td>";
     echo "<td>" . $row['name'] . "</td>";
     echo "<td>" . $row['tag'] . "</td>";
-    echo "<td>" . $row['text'] . "</td>";
+    echo "<td>" . $row['content'] . "</td>";
     echo "<td>" . $row['link'] . "</td>";
     echo "</tr>";
 }

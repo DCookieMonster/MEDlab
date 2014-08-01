@@ -1,9 +1,8 @@
 <?php
  function getDB ($tb_name,$query){
 	  // connection parameters
-	$db_host = "localhost";
-	$username = "root";
-	$password = "9670";
+	require('admin/con.php');
+
 	$db_name = "cms";
 
 	// connection variables + connection to mysql and db
@@ -19,9 +18,8 @@
 
 function CheckIfCanBeEdit ($title){
 	  // connection parameters
-	$db_host = "localhost";
-	$username = "root";
-	$password = "9670";
+	require('admin/con.php');
+
 	$db_name = "cms";
 	$tb_name = "Pages";
 
@@ -49,7 +47,9 @@ function CheckIfCanBeEdit ($title){
 function editable($title){
 	// Check if session is not registered, redirect back to main page. 
 	// Put this code in first line of web page. 
-	session_start();
+	if (session_status() == PHP_SESSION_NONE) {
+	    session_start();
+	}
 	$edit = CheckIfCanBeEdit($title);
 
 	//if(!session_is_registered($myusername)){
@@ -85,9 +85,8 @@ function editable($title){
 }
  function getRuData ($tb_name,$query){
 	  // connection parameters
-	$db_host = "localhost";
-	$username = "root";
-	$password = "9670";
+	require('admin/con.php');
+
 	$db_name = "cms";
 
 	// connection variables + connection to mysql and db
@@ -103,7 +102,9 @@ function editable($title){
 function Memeditable($title){
 	// Check if session is not registered, redirect back to main page. 
 	// Put this code in first line of web page. 
-	session_start();
+	if (session_status() == PHP_SESSION_NONE) {
+	    session_start();
+	}
 
 	//if(!session_is_registered($myusername)){
 	if (isset($_SESSION['myusername']))
@@ -127,7 +128,9 @@ function Memeditable($title){
 function Pubeditable(){
 				// Check if session is not registered, redirect back to main page. 
 				// Put this code in first line of web page. 
-				session_start();
+				if (session_status() == PHP_SESSION_NONE) {
+				    session_start();
+				}
 
 				//if(!session_is_registered($myusername)){
 				if (isset($_SESSION['myusername']) && $_SESSION['myusername']=="admin")

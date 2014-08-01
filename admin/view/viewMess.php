@@ -102,9 +102,8 @@ $_SESSION['time']=time();
         </div><!-- /.row -->
 <?php
   // connection parameters
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+	require('../con.php');
+
 $db_name = "site_db";
 $tb_name = "Messages";
 

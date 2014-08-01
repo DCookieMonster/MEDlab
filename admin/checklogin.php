@@ -1,13 +1,14 @@
 <?php
+require('con.php');
 
-$host="localhost"; // Host name 
-$username="root"; // Mysql username 
-$password="9670"; // Mysql password 
+//$db_host="localdb_host"; // db_host name 
+//$username="root"; // Mysql username 
+//$password="9670"; // Mysql password 
 $db_name="site_db"; // Database name 
 $tbl_name="members"; // Table name 
 
 // Connect to server and select databse.
-mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
+mysql_connect("$db_host", "$username", "$password")or die("cannot connect"); 
 mysql_select_db("$db_name")or die("cannot select DB");
 
 // username and password sent from form 
@@ -33,7 +34,7 @@ $_SESSION['howLong']=600;
 $_SESSION['myusername']=$myusername;
 $_SESSION['mypassword']=$mypassword;
 $_SESSION['tag']=$row['tag'];
-if ($row['tag']!="admin")
+if ($_SESSION['tag']!="admin")
 {
 	header("location:../members/mem.php?tag=".$row['tag']."");
 	

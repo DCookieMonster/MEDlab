@@ -89,9 +89,8 @@ $main_rows=getDB($tb_name,$query);
                         <div class="col-lg-10">
 <?php
   // connection parameters
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+require('admin/con.php');
+
 $db_name = "site_db";
 $tb_name = "Publications";
 

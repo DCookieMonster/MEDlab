@@ -58,7 +58,7 @@ $main_rows=getDB($tb_name,$query);
              		<form action="mail.php" method="POST">
 				<h5>Name</h5> <input type="text"  required="required" name="name"style="margin: 2px; width: 40%; height: 100%;">
 			
-				<h5>Email</h5> <input type="text" tabindex="1" required="required" autocomplete="off" class="inset ls-spr email" placeholder="email" name="email"style="margin: 2px; width: 40%; height: 100%;">
+				<h5>Email</h5> <input type="text"  required="required" name="email"style="margin: 2px; width: 40%; height: 100%;">
 				<h5>Message</h5><textarea name="message" required="required"  rows="10" cols="25" style="margin: 2px; width: 100%; height: 100%;"></textarea><br />
 				<input type="submit" value="Send"><input type="reset" value="Clear">
 				</form>

@@ -1,8 +1,7 @@
  <?php
   // connection parameters
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+require('admin/con.php');
+
 $db_name = "cms";
 $tb_name = "Pages";
 

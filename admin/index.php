@@ -2,9 +2,14 @@
 session_start();
 
 //if(!session_is_registered($myusername)){
-if (isset($_SESSION['myusername'])){
-header("location:dash.php");
+	if (isset($_SESSION['myusername']) && $_SESSION['tag']=='admin'){
+		header("location:dash.php");
 
+}
+else {
+	if (isset($_SESSION['myusername']))
+		header("location:../members/mem.php?tag=".$_SESSION['tag']."");
+	
 }
 ?>
 <!DOCTYPE html>

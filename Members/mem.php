@@ -2,9 +2,8 @@
 
 require('../func.php');
   // connection parameters
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+require('../admin/con.php');
+
 $db_name = "cms";
 $tb_name = "about";
 
@@ -37,7 +36,7 @@ $rows=getDB($tb_name,$query);
 <html lang="en">
 
 <head>
-	<title>Contact Us</title>
+	<title><?php echo $row['name']?></title>
 <?php echo $main_rows['head']?>
 </head>
 

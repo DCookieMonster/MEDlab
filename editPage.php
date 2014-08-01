@@ -1,8 +1,7 @@
  <?php
 
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+require('admin/con.php');
+
 $db_name = "cms"; //DB name
 $tbl_name="Pages"; // Table name 
 

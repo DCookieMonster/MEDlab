@@ -1,7 +1,6 @@
 <?php
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+require('../con.php');
+
 $db_name = "site_db"; //DB name
 $tbl_name="search"; // Table name 
 //$id=$_POST['id'];

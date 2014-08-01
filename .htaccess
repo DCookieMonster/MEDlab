@@ -3,5 +3,5 @@ deny from all
 </Files>
 Options -Indexes
 ErrorDocument 404 http://localhost/~doramir/err404.php
-DirectoryIndex index.php index.html      
+DirectoryIndex index.php index.html index.htm 
 order deny,allow

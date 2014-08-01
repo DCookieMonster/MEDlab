@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc8f9544-ea09-4ae6-850d-e22f6d5433b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/ErezS.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/alex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/ayelet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/denis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/elior.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/eyal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/member.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Members/moshe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Web.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/Jakefile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/LICENSE.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/AddOnManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/Compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/Editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/EditorCommands.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/EditorManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/EditorObservable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/EnterKey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/Env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/FocusManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ForceBlocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/Formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/LegacyInput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/Shortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/UndoManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/WindowManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/BookmarkManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/ControlSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/DOMUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/DomQuery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/ElementUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/EventUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/Range.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/RangeUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/ScriptLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/Selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/Serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/Sizzle.jQuery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/Sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/StyleSheetLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/TreeWalker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/dom/TridentSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/fmt/Preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/DomParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/Entities.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/Node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/SaxParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/Schema.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/Serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/Styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/html/Writer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/jquery.tinymce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/AbsoluteLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/ButtonGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/ColorButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/ComboBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Container.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/DomUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/DragHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/ElementPath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FieldSet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FilePicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FitLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FlexLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FloatPanel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FlowLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FormItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/FormatControls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/GridLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Iframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/KeyboardNavigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Label.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Layout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/ListBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/MenuBar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/MenuButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/MenuItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/MessageBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Movable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Panel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/PanelButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Resizable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/ResizeHandle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Scrollable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Spacer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/SplitButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/StackLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/TabPanel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/TextBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Throbber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Toolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/ui/Window.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/Class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/EventDispatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/I18n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/JSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/JSONP.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/JSONRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/LocalStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/Observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/Quirks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/Tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/URI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/VK.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/classes/util/XHR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/jquery.tinymce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/langs/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/advlist/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/advlist/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/anchor/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/anchor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/autolink/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/autolink/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/autoresize/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/autosave/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/autosave/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/bbcode/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/charmap/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/charmap/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/code/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/code/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/css/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/img/buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/img/items.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/img/menu_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/img/menu_check.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/img/tabs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/tiny_mce_popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/utils/editable_selects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/utils/form_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/utils/mctabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/compat3x/utils/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/contextmenu/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/directionality/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/directionality/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/example/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/example/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/example/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/example_dependency/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/example_dependency/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/fullpage/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/fullscreen/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/hr/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/hr/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/image/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/image/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/importcss/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/importcss/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/insertdatetime/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/layer/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/layer/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/legacyoutput/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/link/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/link/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/lists/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/lists/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/media/moxieplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/media/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/media/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/nonbreaking/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/noneditable/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/pagebreak/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/classes/Clipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/classes/Plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/classes/Quirks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/classes/Utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/classes/WordFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/plugin.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/paste/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/preview/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/preview/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/print/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/print/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/save/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/save/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/searchreplace/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/spellchecker/classes/DomTextMatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/spellchecker/classes/Plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/spellchecker/plugin.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/spellchecker/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/tabfocus/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/table/classes/CellSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/table/classes/Plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/table/classes/Quirks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/table/classes/TableGrid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/table/plugin.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/table/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/table/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/template/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/template/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/textcolor/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/address.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/article.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/aside.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/blockquote.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/div.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/dl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/figure.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/h1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/h2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/h3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/h4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/h5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/h6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/hgroup.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/ol.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/p.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/pre.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/section.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/img/ul.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualchars/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/wordcount/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/AbsoluteLayout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Button.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/ButtonGroup.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Checkbox.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/ColorButton.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/ComboBox.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Container.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Content.Inline.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Content.Objects.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Content.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/FieldSet.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/FitLayout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/FloatPanel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/FlowLayout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Icons.Ie7.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Iframe.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Label.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/ListBox.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Menu.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/MenuBar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/MenuButton.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/MenuItem.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Panel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Radio.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Reset.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/ResizeHandle.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Scrollable.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Spacer.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/SplitButton.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/StackLayout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/TabPanel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/TextBox.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Throbber.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/TinyMCE.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/ToolTip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/Window.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/skin.dev.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/skin.ie7.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/skin.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/skins/lightgray/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/themes/modern/theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/themes/modern/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/tinymce.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/tinymce.jquery.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/tinymce.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/tinymce.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/tinymce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/js/tinymce/tinymce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/coverage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/coverage/js/JSCovReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/coverage/js/backbone-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/coverage/js/reporter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/coverage/js/reporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/coverage/js/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/js/qunit/QUnit.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/js/qunit/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/js/qunit/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/js/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/js/tinymce_loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/js/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/accessibility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/classic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/css/custom_theme_content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/css/development.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/css/gecko_caret.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/css/noneditable_manual.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/custom_theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/development.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/focus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/gecko_caret.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/inline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/noneditable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/paste.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/performance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/removeformat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/resize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/manual/visualblocks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/autolink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/autosave.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/importcss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/jquery_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/legacyoutput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/lists.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/noneditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/spellchecker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/plugins/wordcount.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/AddOnManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/Editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/EditorCommands.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/EditorManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/EnterKey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ForceBlocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/Formatter_apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/Formatter_check.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/Formatter_remove.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/Shortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/UndoManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/dom/DOMUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/dom/EventUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/dom/Range.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/dom/Selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/dom/Serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/dom/TridentSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/dom/test.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/DomParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/Entities.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/Node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/SaxParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/Schema.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/Serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/Styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/html/Writer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/AbsoluteLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/Button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/Collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/ColorButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/Control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/FitLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/FlexLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/GridLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/MenuButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/Panel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/Selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/SplitButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/TabPanel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/TextBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/Window.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/css/ui-overrides.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/ui/img/raster.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/EventDispatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/JSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/JSONRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/LocalStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/Observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/Quirks_webkit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/URI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/XHR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/json_rpc_error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/json_rpc_ok.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tests/tinymce/util/test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/BuildTools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/docs/tinymce.CommandEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/docs/tinymce.ContentEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/docs/tinymce.Editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/docs/tinymce.Event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/docs/tinymce.FocusEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/docs/tinymce.ProgressStateEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/docs/tinymce.ResizeEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/nuget/TinyMCE.jQuery.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/nuget/TinyMCE.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/edit/tinymce/tools/saucelabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sendmail.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/AdminFunc.php" afterPath="$PROJECT_DIR$/admin/AdminFunc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/Dash.php" afterPath="$PROJECT_DIR$/admin/Dash.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Publications.php" afterPath="$PROJECT_DIR$/Publications.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/add/add.php" afterPath="$PROJECT_DIR$/admin/add/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/add/add_func_pub.php" afterPath="$PROJECT_DIR$/admin/add/add_func_pub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/checklogin.php" afterPath="$PROJECT_DIR$/admin/checklogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/del/del.php" afterPath="$PROJECT_DIR$/admin/del/del.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/del/delImage.php" afterPath="$PROJECT_DIR$/admin/del/delImage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/editAbout.php" afterPath="$PROJECT_DIR$/admin/editAbout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit/editAbout.php" afterPath="$PROJECT_DIR$/admin/edit/editAbout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editPage.php" afterPath="$PROJECT_DIR$/editPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Members/editPage.php" afterPath="$PROJECT_DIR$/Members/editPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit/editPublication.php" afterPath="$PROJECT_DIR$/admin/edit/editPublication.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit/editSearch.php" afterPath="$PROJECT_DIR$/admin/edit/editSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editable.php" afterPath="$PROJECT_DIR$/editable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Members/editable.php" afterPath="$PROJECT_DIR$/Members/editable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/err404.php" afterPath="$PROJECT_DIR$/err404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/func.php" afterPath="$PROJECT_DIR$/func.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail.php" afterPath="$PROJECT_DIR$/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.php" afterPath="$PROJECT_DIR$/map.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Members/mem.php" afterPath="$PROJECT_DIR$/Members/mem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendmail.php" afterPath="$PROJECT_DIR$/sendmail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit/update_Publications.php" afterPath="$PROJECT_DIR$/admin/edit/update_Publications.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit/update_Search.php" afterPath="$PROJECT_DIR$/admin/edit/update_Search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit/update_about.php" afterPath="$PROJECT_DIR$/admin/edit/update_about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/add/upload_file.php" afterPath="$PROJECT_DIR$/admin/add/upload_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/viewAbout.php" afterPath="$PROJECT_DIR$/admin/view/viewAbout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/viewImage.php" afterPath="$PROJECT_DIR$/admin/view/viewImage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/viewMess.php" afterPath="$PROJECT_DIR$/admin/view/viewMess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/viewPublications.php" afterPath="$PROJECT_DIR$/admin/view/viewPublications.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/viewSearch.php" afterPath="$PROJECT_DIR$/admin/view/viewSearch.php" />
+    </list>
+    <ignored path="Sites.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Sites" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="about.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="32" selection-start="3467" selection-end="3467" vertical-scroll-proportion="-7.6666665" vertical-offset="1661" max-vertical-offset="2070">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="con.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/con.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="2" selection-start="75" selection-end="75" vertical-scroll-proportion="0.1421801" vertical-offset="0" max-vertical-offset="422">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminFunc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/AdminFunc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="21" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="705">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checklogin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/checklogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="6" selection-start="583" selection-end="583" vertical-scroll-proportion="-5.125" vertical-offset="147" max-vertical-offset="825">
+              <folding>
+                <marker date="1406879242000" expanded="true" signature="771:874" placeholder="SELECT * FRO..$tbl_name WHERE..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/admin/con.php" />
+        <option value="$PROJECT_DIR$/admin/checklogin.php" />
+        <option value="$PROJECT_DIR$/admin/AdminFunc.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="799" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUndefinedClassInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc8f9544-ea09-4ae6-850d-e22f6d5433b4" name="Default" comment="" />
+      <created>1406659664156</created>
+      <updated>1406659664156</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="799" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="32" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/con.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/checklogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="825">
+          <folding>
+            <marker date="1406879242000" expanded="true" signature="771:874" placeholder="SELECT * FRO..$tbl_name WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.4620853" vertical-offset="0" max-vertical-offset="2055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="32" selection-start="3467" selection-end="3467" vertical-scroll-proportion="-7.6666665" vertical-offset="1661" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/checklogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="583" selection-end="583" vertical-scroll-proportion="-5.125" vertical-offset="147" max-vertical-offset="825">
+          <folding>
+            <marker date="1406879242000" expanded="true" signature="771:874" placeholder="SELECT * FRO..$tbl_name WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/AdminFunc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/con.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="75" selection-end="75" vertical-scroll-proportion="0.1421801" vertical-offset="0" max-vertical-offset="422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

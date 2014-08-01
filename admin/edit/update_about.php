@@ -1,8 +1,7 @@
 <?php
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
-$db_name = "site_db"; //DB name
+require('../con.php');
+
+$db_name = "cms"; //DB name
 $tbl_name="about"; // Table name 
 //$id=$_POST['id'];
 //$title=$_POST['title'];
@@ -23,7 +22,7 @@ $text=mysql_real_escape_string($_POST['text']);
 $db_con = mysql_connect($db_host, $username, $password);
 $result = mysql_select_db($db_name, $db_con);
 // update data in mysql database 
-$sql="UPDATE $tbl_name SET text='$text'
+$sql="UPDATE $tbl_name SET content='$text'
 WHERE id='$id'";
 $result=mysql_query($sql,$db_con);
 

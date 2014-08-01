@@ -28,8 +28,12 @@ $res=getRuData($tb_name,$query);
 
 <body  dir="ltr" >
 	<?php
-		editable($title);
-
+	if (session_status() == PHP_SESSION_NONE) {
+	    session_start();
+	}
+			if (isset($_SESSION['tag']) && $_SESSION['tag']=='admin'){
+				editable("about");
+	}
 	?>
      <div class="wrapper" >
         <div id="topmenu" class="topmenu">

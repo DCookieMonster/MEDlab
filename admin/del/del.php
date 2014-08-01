@@ -10,15 +10,14 @@ $_SESSION['time']=time();
 
 
 
-$host="localhost"; // Host name 
-$username="root"; // Mysql username 
-$password="9670"; // Mysql password 
+require('../con.php');
+
 $db_name="site_db"; // Database name 
 $tbl_name="search"; // Table name
 
 
 // Connect to server and select database.
-mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
+mysql_connect("$db_host", "$username", "$password")or die("cannot connect"); 
 mysql_select_db("$db_name")or die("cannot select DB");
 
 // get value of id that sent from address bar

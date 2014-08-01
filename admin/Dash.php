@@ -23,9 +23,8 @@ $user=" ".$_SESSION['myusername'];
 
 
   // connection parameters
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+require('con.php');
+
 $db_name = "site_db";
 $tb_name = "messages";
 
@@ -229,7 +228,36 @@ while ($row = mysql_fetch_array($result)) {
 				            </div>
 				          </div>
 				      
-				         
+						 <div class="col-lg-3">
+				            <div class="panel panel-info">
+				              <div class="panel-heading">
+				                <div class="row">
+				                  <div class="col-xs-6">
+				                    <i class="fa fa-plus fa-5x"></i>
+				                  </div>
+				                  <div class="col-xs-6 text-right ">
+				                    <p class="announcement-heading">Edit</p>
+				                    <p class="announcement-text">Publications</p>
+
+				                  </div>
+				                </div>
+				              </div>
+				     		<form action="../Publications/index.php?file=ErezShalom&do=dor" method="POST">
+							    <input name="do" type="hidden" id="do" value="null">					
+				                <div class="panel-footer announcement-bottom">
+				                  <div class="row">
+				                    <div class="col-xs-6">
+				                        <button type="submit" class="btn btn-default">go</button>
+				                    </div>
+				                    <div class="col-xs-6 text-right">
+				                      <i class="fa fa-arrow-circle-right"></i>
+				                    </div>
+				                  </div>
+				                </div>
+				              </a>
+				            </div>
+				          </div>
+				         </form>
 				        </div><!-- /.row -->
 		
       </div><!-- /#page-wrapper -->

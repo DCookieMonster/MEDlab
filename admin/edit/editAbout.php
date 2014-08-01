@@ -2,14 +2,13 @@
 //logout after $timeoff in sec
 
     
-$host="localhost"; // Host name 
-$username="root"; // Mysql username 
-$password="9670"; // Mysql password 
-$db_name="site_db"; // Database name 
+require('../con.php');
+
+$db_name="cms"; // Database name 
 $tbl_name="about"; // Table name
 
 // Connect to server and select database.
-mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
+mysql_connect("$db_host", "$username", "$password")or die("cannot connect"); 
 mysql_select_db("$db_name")or die("cannot select DB");
 
 // get value of id that sent from address bar
@@ -46,10 +45,10 @@ mysql_close();
     <!-- Page Specific CSS -->
     <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<script src="tinymce/js/tinymce/tinymce.dev.js"></script>
-	<script src="tinymce/js/tinymce/plugins/table/plugin.dev.js"></script>
-	<script src="tinymce/js/tinymce/plugins/paste/plugin.dev.js"></script>
-	<script src="tinymce/js/tinymce/plugins/spellchecker/plugin.dev.js"></script>
+	<script src="../../tinymce/js/tinymce/tinymce.dev.js"></script>
+	<script src="../../tinymce/js/tinymce/plugins/table/plugin.dev.js"></script>
+	<script src="../../tinymce/js/tinymce/plugins/paste/plugin.dev.js"></script>
+	<script src="../../tinymce/js/tinymce/plugins/spellchecker/plugin.dev.js"></script>
 	<script>
 		tinymce.init({
 			selector: "textarea#text",
@@ -187,7 +186,7 @@ mysql_close();
         <div class="row">
          <div class="col-lg-12">
              <form name="form1" role="form" method="post" action="update_about.php">
-                <textarea id="text" name="text" rows="15" cols="80" style="width: 80%"><?php echo $rows['text'];?></textarea>
+                <textarea id="text" name="text" rows="15" cols="80" style="width: 80%"><?php echo $rows['content'];?></textarea>
 				
 			    <input name="id" type="hidden" id="id" value="<?php echo $rows['id']; ?>">
 

@@ -16,7 +16,8 @@ if ( !empty($_FILES["photo_file"]["tmp_name"]) && $_FILES["photo_file"]["size"] 
 		if (move_uploaded_file($_FILES['photo_file']['tmp_name'], $save_file_path)) {  
 			 // Moving the file was a success! 
 			echo("<div>Your photo has been uploaded successfully!</div><div><img src=".$save_file_path." />"); 
-			$con=mysqli_connect("localhost","root","9670","cms");
+			require('../con.php');
+			$con=mysqli_connect("$db_host", "$username", "$password","cms");
 			// Check connection
 			if (mysqli_connect_errno()) {
 			  echo "Failed to connect to MySQL: " . mysqli_connect_error();
