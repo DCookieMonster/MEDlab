@@ -1,5 +1,5 @@
 <?php
-require('../con.php');
+require('../_con.php');
 $con=mysqli_connect("$db_host", "$username", "$password","site_db");
 // Check connection
 if (mysqli_connect_errno()) {

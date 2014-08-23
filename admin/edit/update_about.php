@@ -1,5 +1,5 @@
 <?php
-require('../con.php');
+require('../_con.php');
 
 $db_name = "cms"; //DB name
 $tbl_name="about"; // Table name 
@@ -8,23 +8,22 @@ $tbl_name="about"; // Table name
 //$description=$_POST['description'];
 //$keywords=$_POST['keywords'];
 //$link=$_POST[   'link'];
+// Connect to server and select database.
+$db_con = mysqli_connect($db_host, $username, $password,$db_name);
 
-$id=mysql_real_escape_string($_POST['id']);
-$text=mysql_real_escape_string($_POST['text']);
+$id=mysqli_real_escape_string($db_con,$_POST['id']);
+$text=mysqli_real_escape_string($db_con,$_POST['text']);
 
 
 //$db_host = "localhost";
 //$username = "root";
-//$password = "9670";
-//$db_name = "dor";
 
-// Connect to server and select database.
-$db_con = mysql_connect($db_host, $username, $password);
-$result = mysql_select_db($db_name, $db_con);
+
+
 // update data in mysql database 
 $sql="UPDATE $tbl_name SET content='$text'
 WHERE id='$id'";
-$result=mysql_query($sql,$db_con);
+$result=mysqli_query($db_con,$sql);
 
 // if successfully updated. 
 if($result){

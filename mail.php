@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 
 $message = $_POST['message'];
-	require('admin/con.php');
+	require('admin/_con.php');
 
 $con=mysqli_connect($db_host, $username, $password,"site_db");
 // Check connection

@@ -1,5 +1,5 @@
 <?php
-require('../con.php');
+require('../_con.php');
 $con=mysqli_connect("$db_host", "$username", "$password","site_db");
 // Check connection
 if (mysqli_connect_errno()) {
@@ -12,14 +12,7 @@ $description = mysqli_real_escape_string($con, $_POST['description']);
 $keywords = mysqli_real_escape_string($con, $_POST['keywords']);
 $links = mysqli_real_escape_string($con, $_POST['links']);
 $query = "SELECT MAX(id) FROM search"; 
-//mysql_connect("localhost", "root", "9670");
-//mysql_select_db("site_db");
-// $result = mysql_query("SELECT MAX(id) FROM dor");
-//$row = mysql_fetch_row($result);
-//$highest_id = $row[0];
-//mysql_close();
-//$id1=intval($highest_id)+1;
-//$id=strval($id1);
+
 
 
 //$sql="INSERT INTO dor (id,title, description, keywords,link)

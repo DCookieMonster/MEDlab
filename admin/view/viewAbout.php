@@ -101,18 +101,17 @@ $_SESSION['time']=time();
         </div><!-- /.row -->
 <?php
   // connection parameters
-	require('../con.php');
+	require('../_con.php');
 
 $db_name = "cms";
 $tb_name = "about";
 
 // connection variables + connection to mysql and db
-$db_con = mysql_connect($db_host, $username, $password);
-$result = mysql_select_db($db_name, $db_con);
+$db_con = mysqli_connect($db_host, $username, $password,$db_name);
 
 // page variables
 $query = 'SELECT * FROM '.$tb_name;
-$result = mysql_query($query, $db_con);
+$result = mysqli_query($db_con,$query);
 // successful result
 echo' <div class="row">';
 echo '<div class="col-lg-12"> <div class="table-responsive">
@@ -129,7 +128,7 @@ echo '<div class="col-lg-12"> <div class="table-responsive">
 </thead> 
 <tbody>';
 
-while ($row = mysql_fetch_array($result)) {
+while ($row = mysqli_fetch_array($result)) {
     echo "<tr>";
     echo "<td>" . $row['id'] . "</td>";
     echo "<td>" . $row['name'] . "</td>";
@@ -140,7 +139,7 @@ while ($row = mysql_fetch_array($result)) {
 }
 echo "</tbody></table></div></div>";
 echo "</div>";
-mysql_close($db_con);
+mysqli_close($db_con);
 ?>
         <div class="row">
          <div class="col-lg-12">

@@ -1,23 +1,22 @@
  <?php
   // connection parameters
-require('../admin/con.php');
+require('../admin/_con.php');
 
 $db_name = "cms";
 $tb_name = "about";
 
 
 // connection variables + connection to mysql and db
-$db_con = mysql_connect($db_host, $username, $password);
-$result = mysql_select_db($db_name, $db_con);
-$tag=mysql_real_escape_string($_GET['title']);
+$db_con = mysqli_connect($db_host, $username, $password,$db_name);
+$tag=mysqli_real_escape_string($db_con,$_GET['title']);
 
 
 // page variables
 $query = "SELECT * FROM $tb_name WHERE tag='$tag'" ;
-$result = mysql_query($query, $db_con);
+$result = mysqli_query($db_con,$query);
 // successful result
 
-$row = mysql_fetch_array($result);
+$row = mysqli_fetch_array($result);
 ?>
 
 <html>

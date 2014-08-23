@@ -1,27 +1,26 @@
 <?php
 //logout after $timeoff in sec
 
-require('con.php');
+require('_con.php');
 
 $db_name="site_db"; // Database name 
 $tbl_name="about"; // Table name
 
 // Connect to server and select database.
-mysql_connect("$db_host", "$username", "$password")or die("cannot connect"); 
-mysql_select_db("$db_name")or die("cannot select DB");
+$db_con=mysqli_connect("$db_host", "$username", "$password","$db_name")or die("cannot connect"); 
 
 // get value of id that sent from address bar
 //$id=$_GET['edit'];
 $idtmp=$_GET['edit'];
-$id=mysql_real_escape_string($idtmp);
+$id=mysqli_real_escape_string($db_con,$idtmp);
 
 // Retrieve data from database 
 $sql="SELECT * FROM $tbl_name WHERE id='$id'";
-$result=mysql_query($sql);
-$rows=mysql_fetch_array($result);
+$result=mysqli_query($db_con,$sql);
+$rows=mysqli_fetch_array($result);
 
 // close connection 
-mysql_close();
+mysqli_close($db_con);
 
 ?>
 

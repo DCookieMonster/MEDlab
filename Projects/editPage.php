@@ -1,25 +1,22 @@
  <?php
 
-$db_host = "localhost";
-$username = "root";
-$password = "9670";
+require("../admin/_con.php")
 $db_name = "cms"; //DB name
 $tbl_name="Pages"; // Table name 
-
+$db_con = mysqli_connect($db_host, $username, $password,$db_name);
 
 $tb_name="Pages";
-$title=mysql_real_escape_string($_POST['title']);
+$title=mysqli_real_escape_string($db_con,$_POST['title']);
 $content=$_POST['content'];
 $con=addslashes($content);
-//$con=mysql_real_escape_string($content);
+//$con=mysqli_real_escape_string($content);
 
 
 
 
 $query="UPDATE $tb_name SET content=\"$con\"  WHERE title=\"$title\"";
-$db_con = mysql_connect($db_host, $username, $password);
-$result = mysql_select_db($db_name, $db_con);
-$result=mysql_query($query,$db_con);
+
+$result=mysqli_query($db_con,$query);
 
 // if successfully updated. 
 if($result){

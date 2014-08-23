@@ -76,7 +76,7 @@ $res=getRuData($tb_name,$query);
 													             <!---  <div class="item"><img class="lazyOwl" data-src="img/about/DSC1.jpg" alt="ourTeam"></div>
 													               ---->
 																<?php 
-																while ($pic = mysql_fetch_array($res)) {
+																while ($pic = mysqli_fetch_array($res)) {
 																	echo             '   <div class="item"><img class="lazyOwl" data-src="'.$pic['img'].'" alt="'.$pic['name'].'"></div>';
 																}
 																?>

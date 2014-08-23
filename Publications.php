@@ -89,19 +89,26 @@ $main_rows=getDB($tb_name,$query);
                         <div class="col-lg-10">
 <?php
   // connection parameters
-require('admin/con.php');
+require('admin/_con.php');
 
 $db_name = "site_db";
 $tb_name = "Publications";
 
+/*
 // connection variables + connection to mysql and db
-$db_con = mysql_connect($db_host, $username, $password);
-$result = mysql_select_db($db_name, $db_con);
-$name_tmp =mysql_select_db($db_name, $db_con);
+$db_con = mysqli_connect($GLOBALS['db_host'],$GLOBALS['db_username'],$GLOBALS['db_pass'],$db_name);
+
+$result = mysqli_query($db_con,$query );
+// successful result
+
+return mysqli_fetch_array($result);*/
+
+// connection variables + connection to mysql and db
+$db_con = mysqli_connect($GLOBALS['db_host'],$GLOBALS['db_username'],$GLOBALS['db_pass'],$db_name);
 $name_query="SELECT name From $tb_name";
 $tag_query ="SELECT tag From $tb_name";
-$name_tmp = mysql_query($name_query, $db_con);
-$tag_tmp = mysql_query($tag_query, $db_con);
+$name_tmp = mysqli_query($db_con,$name_query);
+$tag_tmp = mysqli_query($db_con,$tag_query);
 
 //array for subjects
 $subjectArr = array("master");
@@ -110,8 +117,8 @@ $flag =true;
 $flag_sub=true;
 $sub_name="";
 $tmp_name="";
-while ($row_tmp = mysql_fetch_array($name_tmp)) {
-$row_tag = mysql_fetch_array($tag_tmp);
+while ($row_tmp = mysqli_fetch_array($name_tmp)) {
+$row_tag = mysqli_fetch_array($tag_tmp);
 $name=$row_tmp['name'];
 $tag=$row_tag['tag'];
 if ($name!=$tmp_name){
@@ -121,14 +128,14 @@ if ($name!=$tmp_name){
 // page variables
 if ($flag==true){
 $sub_query ="SELECT subject From $tb_name WHERE name=\"$name\"";
-$sub_tmp = mysql_query($sub_query, $db_con);
+$sub_tmp = mysqli_query($db_con,$sub_query);
 
 // successful result
 $i=1;
 echo'<div class="panel-group" id="accordion'.$tag.'">';
 echo'<h2 class="page-header" id="'.$tag.'"style="font-size: 28px">'.$name.'</h2>';
 
-while ($row_sub = mysql_fetch_array($sub_tmp)){
+while ($row_sub = mysqli_fetch_array($sub_tmp)){
 
 if ($row_sub['subject']!=NULL and $row_sub['subject']!=$sub_name and in_array($row_sub['subject'].$name,$subjectArr)!=true){
     $sub_name=$row_sub['subject'];
@@ -138,7 +145,7 @@ if ($row_sub['subject']!=NULL and $row_sub['subject']!=$sub_name and in_array($r
 $query = "SELECT * FROM $tb_name WHERE name=\"$name\" ORDER BY year";
 if ($sub_name!="")
 $query = "SELECT * FROM $tb_name WHERE name=\"$name\" and subject=\"$sub_name\" ORDER BY year";
-$result = mysql_query($query, $db_con);
+$result = mysqli_query($db_con,$query);
 
 
 
@@ -146,7 +153,7 @@ if ($flag_sub==true){
 	  echo'   <div id="'.$sub_name.'">';
 	if ($sub_name!="")
 		echo'<h4 class="panel-header">'.$sub_name.'</h4>';
-while ($row = mysql_fetch_array($result)) {
+while ($row = mysqli_fetch_array($result)) {
     echo ' <div class="panel panel-default">
                                     <div class="panel-heading ">
                                         <h4 class="panel-title">';
@@ -176,7 +183,7 @@ echo '</div>';
 
     $flag=false;
 }
-mysql_close($db_con);
+mysqli_close($db_con);
 ?>
      
                                 

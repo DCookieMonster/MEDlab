@@ -23,20 +23,19 @@ $user=" ".$_SESSION['myusername'];
 
 
   // connection parameters
-require('con.php');
+require('_con.php');
 
 $db_name = "site_db";
 $tb_name = "messages";
 
 // connection variables + connection to mysql and db
-$db_con = mysql_connect($db_host, $username, $password);
-$result = mysql_select_db($db_name, $db_con);
+$db_con = mysqli_connect($db_host, $username, $password,$db_name);
 
 // page variables
 $query = 'SELECT * FROM '.$tb_name;
-$result = mysql_query($query, $db_con);
+$result = mysqli_query($db_con,$query);
 $num_rows = 0;
-while ($row = mysql_fetch_array($result)) {
+while ($row = mysqli_fetch_array($result)) {
 	if((int)$row['read']==0)
 		$num_rows++;
 }

@@ -1,41 +1,41 @@
 <?php
+require('admin/_con.php');
+
+
+
  function getDB ($tb_name,$query){
 	  // connection parameters
-	require('admin/con.php');
 
 	$db_name = "cms";
 
 	// connection variables + connection to mysql and db
-	$db_con = mysql_connect($db_host, $username, $password);
-	$result = mysql_select_db($db_name, $db_con);
+	$db_con = mysqli_connect($GLOBALS['db_host'],$GLOBALS['db_username'],$GLOBALS['db_pass'],$db_name);
 
-	$result = mysql_query($query, $db_con);
+	$result = mysqli_query($db_con,$query );
 	// successful result
 
-	return mysql_fetch_array($result);
+	return mysqli_fetch_array($result);
 	
 } 
 
 function CheckIfCanBeEdit ($title){
 	  // connection parameters
-	require('admin/con.php');
 
 	$db_name = "cms";
 	$tb_name = "Pages";
 
 
 	// connection variables + connection to mysql and db
-	$db_con = mysql_connect($db_host, $username, $password);
-	$result = mysql_select_db($db_name, $db_con);
-	$tag=mysql_real_escape_string($title);
+	$db_con = mysqli_connect($GLOBALS['db_host'],$GLOBALS['db_username'],$GLOBALS['db_pass'],$db_name);
+	$tag=mysqli_real_escape_string(	$db_con ,$title);
 
 
 	// page variables
 	$query = "SELECT * FROM $tb_name WHERE title='$tag'" ;
-	$result = mysql_query($query, $db_con);
+	$result = mysqli_query($db_con,$query );
 	// successful result
 
-	$count=mysql_num_rows($result);
+	$count=mysqli_num_rows($result);
 	if ($count==1)
 		{
 		
@@ -85,16 +85,14 @@ function editable($title){
 }
  function getRuData ($tb_name,$query){
 	  // connection parameters
-	require('admin/con.php');
 
 	$db_name = "cms";
 
 	// connection variables + connection to mysql and db
-	$db_con = mysql_connect($db_host, $username, $password);
-	$result = mysql_select_db($db_name, $db_con);
+	$db_con = mysqli_connect($GLOBALS['db_host'],$GLOBALS['db_username'],$GLOBALS['db_pass'],$db_name);
 
-	return mysql_query($query, $db_con);
-	// successful result
+	return mysqli_query($db_con,$query );
+	
 
 
 	

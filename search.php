@@ -40,10 +40,13 @@ $main_rows=getDB($tb_name,$query);
 		$query = "SELECT * FROM search WHERE ";
 		$query_pub="SELECT * FROM Publications WHERE ";
 		$i=0;
+		// connecting to our mysql database
+		require('admin/_con.php');
+		$db_con=mysqli_connect($db_host, $username, $password,"site_db");
 		
 		foreach ($terms as $each){
 			$i++;
-            $eacht = mysql_real_escape_string($each);
+            $eacht = mysqli_real_escape_string($db_con,$each);
 			if ($i == 1){
 				$query .= "keywords LIKE '%$eacht%' ";
                 $query_pub .= "abstract LIKE '%$eacht%' OR title LIKE '%$eacht%' ";
@@ -54,17 +57,14 @@ $main_rows=getDB($tb_name,$query);
 			}
 		}
 		$flag=true;
-		// connecting to our mysql database
-		require('admin/con.php');
-		mysql_connect($db_host, $username, $password);
-		mysql_select_db("site_db");
+
 		
-		$query = mysql_query($query);
-		$numrows = mysql_num_rows($query);
+		$query = mysqli_query($db_con,$query);
+		$numrows = mysqli_num_rows($query);
 
 		if ($numrows > 0){
 			
-			while ($row = mysql_fetch_assoc($query)){
+			while ($row = mysqli_fetch_assoc($query)){
 				$id = $row['id'];
 				$title = $row['title'];
 				$description = $row['description'];
@@ -79,15 +79,12 @@ $main_rows=getDB($tb_name,$query);
 		else
 			$flag=false;
 			
-		// connecting to our mysql database
-		mysql_connect("localhost", "root", "9670");
-		mysql_select_db("site_db");
-		
-		$query_pub = mysql_query($query_pub);
-		$numrows = mysql_num_rows($query_pub);
+	
+		$query_pub =  mysqli_query($db_con,$query_pub);
+		$numrows = mysqli_num_rows($query_pub);
 
 		if ($numrows > 0){
-			while ($row = mysql_fetch_assoc($query_pub)){
+			while ($row = mysqli_fetch_assoc($query_pub)){
 				$title = $row['title'];
 				$abstract = $row['abstract'];
 				$link = $row['link'];
@@ -112,7 +109,7 @@ alert(\"Sorry, This publication is not available.\");
 			echo "<p style='font-size:18px'>No results found for \"<b>$input</b>\"</p>";
 		}
 		// disconnect
-		mysql_close();
+		mysqli_close($db_con);
 	?>
           </div>
 
